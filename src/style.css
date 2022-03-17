@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: aqua;
+}
+.navbar {
+  background: rgba(201, 27, 4, 0.781);
+  color: white;
+}
+
+.navbar {
+  /* max-width: 1250px; */
+  padding: 0.3rem 0rem;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.navbar-list li {
+  margin-left: 2rem;
+  position: relative;
+}
+
+.navbar-list li span {
+  background: rgb(37, 59, 129);
+  padding: 0 5px;
+  border-radius: 100%;
+  width: 100px;
+  height: 10px;
+  font-size: 10px;
+}
+
+/* Styling for product container */
+
+.product-container {
+  /* max-width: 1250px; */
+  margin: 0;
+  padding: 3rem 0rem;
+  position: relative;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-header .product-btn {
+  background-color: transparent;
+  border: 1px solid rgb(51, 79, 172);
+  border-radius: 0.2rem;
+  color: rgb(51, 79, 172);
+  padding: 2px 10px;
+}
+
+.product-btn i {
+  margin-right: 0.4rem;
+}
+
+.cart-list {
+  position: absolute;
+  z-index: 1;
+  top: -22px;
+  right: 60px;
+}
+
+/* .cart-list .cart-item{
+      width: 200px;
+      height: 200px;
+      background: green;
+      
+  } */
+
+.cart-card {
+  display: flex;
+  align-items: center;
+}
+
+.cart-card p {
+  margin-bottom: 0px;
+}
+
+.cart-card .cart-img {
+  width: 70px;
+  height: 45px;
+  margin-right: 1rem;
+}
+
+.cart-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.cart-name {
+  margin-right: 1rem;
+  flex: 70%;
+}
+
+.cart-remove {
+  background: rgba(175, 43, 43, 0.644);
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  padding: 0.3rem 0.678rem;
+}
+
+.cart-bottom button {
+  background: green;
+  color: white;
+  padding: 0.3rem 0.678rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+/* custom offcanvas */
+
+.offcanvas-header {
+  background: rgba(160, 204, 224, 0.63);
+  color: rgb(37, 59, 129);
+}
+
+.price-range {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.price-range input {
+  width: 50%;
+  padding: 0.23rem;
+}
+
+h6 {
+  margin-top: 1rem;
+}
+
+.date-input {
+  width: 100%;
+  padding: 0.23rem;
+}
+
+.offcanvas-body {
+  position: relative;
+}
+
+.category-select {
+  width: 100%;
+  padding: 0.4rem;
+}
+
+.filter-btn {
+  position: absolute;
+  bottom: 0.8rem;
+  right: 0.8rem;
+}
+
+.filter-cancel {
+  background: transparent;
+  border: 1px solid grey;
+  color: grey;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 0.15rem;
+  margin-left: 1rem;
+}
+
+.filter-apply {
+  background: green;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 0.15rem;
+  margin-left: 1rem;
+}
+
+.card {
+  border: none;
+  /* box-shadow: 3px 3px 10px rgb(224, 216, 216); */
+  box-shadow: 0 4px 8px 0 rgba(151, 146, 146, 0.2),
+    0 6px 20px 0 rgba(161, 152, 152, 0.19);
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.card-img {
+  padding: 1rem;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-img img {
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-adder {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.8rem;
+  margin-top: 1rem;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  text-align: center;
+}
+
+.card-adder input {
+  width: 10%;
+  outline: transparent;
+  border: none;
+  background: white;
+}
+
+.card-adder button {
+  padding: 1px 8px;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 2px;
+  background: white;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.card-description p {
+  margin-bottom: 0px;
+  font-size: 1.1rem;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-price p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-price span {
+  color: rgb(9, 136, 9);
+  font-size: 0.9rem;
+}
+
+.addBtn {
+  width: 100%;
+  background: rgb(37, 59, 129);
+  margin-top: 1rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 0.875rem;
+}
+
+.addBtn:hover {
+  background: rgb(49, 77, 168);
+}
