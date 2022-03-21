@@ -6,7 +6,7 @@ export default function ProductCard(props) {
   const [productCount,setProductCount] = useState(0);
 
 
-    const {productName,price,stock,imgName,category,id,product,productDate,countItem, setCountItem, userItem,setUserItem} = props;
+    const {productName,price,stock,imgName,product,productDate,countItem, setCountItem, userItem,setUserItem} = props;
 // console.log(setCountItem);
 
 const increaseProduct = () =>{

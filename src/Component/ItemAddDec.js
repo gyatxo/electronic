@@ -1,7 +1,7 @@
 import React from 'react'
 
 function ItemAddDec(props) {
-    const {stock, productCount, setProductCount, increaseProduct,decreaseProduct}=props
+    const { productCount,  increaseProduct,decreaseProduct}=props
 
     // const handleChange=(e)=>{
     //     e.preventDefault()

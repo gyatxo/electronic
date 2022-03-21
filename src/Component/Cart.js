@@ -4,7 +4,6 @@ import ItemAddDec from './ItemAddDec';
 function Cart(props) {
     const {userItem,removeCartItem}= props;
     
-    // console.log(props)
     let total = 0;
   return (
     <div className="cart-list">
@@ -28,8 +27,7 @@ function Cart(props) {
                       </div>
 
                       <div className="cart-stock">
-                      {/* <ItemAddDec  productCount={productCount} setProductCount={setProductCount}/> */}
-                        <span>item : {item.count}</span>
+                         <span>item : {item.count}</span>
                         <button
                           onClick={() => {
                             removeCartItem(item);
