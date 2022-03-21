@@ -43,7 +43,7 @@ function Filter({applyFilter}) {
 
                 <h6>Category</h6>
                 <select id="filter-select" className="category-select">
-                  <option value=""></option>
+                  
                   <option value="laptop">Laptop</option>
                   <option value="mobile">Mobile</option>
                   <option value="keyboard">Keyboard</option>
