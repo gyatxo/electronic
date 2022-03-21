@@ -1,5 +1,4 @@
 import React from 'react'
-import ItemAddDec from './ItemAddDec';
 
 function Cart(props) {
     const {userItem,removeCartItem}= props;
