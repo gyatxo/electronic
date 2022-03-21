@@ -9,7 +9,7 @@ function ProductPage(props) {
     const [userItem, setUserItem]= useState([]);
     const [productList, setProductList]= useState([])
     const [filterItem, setFilterItem]= useState([])
-    const{showCart,setShowCart,countItem,setCountItem}=props;
+    const{showCart,countItem,setCountItem}=props;
 
 // console.log(productList)
 const removeCartItem = (product) => {
